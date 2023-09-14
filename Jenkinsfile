@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/harikrishnamarolix/Hari-Docker-Project.git'
+                git branch: 'main', url: 'https://github.com/rayenkidhanunjaya/dhanu-Docker-Project.git'
             }
         }
         stage('Build Maven') {
